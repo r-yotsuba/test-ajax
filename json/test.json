@@ -1,0 +1,16 @@
+{
+    "character":[
+        {
+            "id": 1,
+            "firstname":"Kenji",
+            "lastname":"Yamada",
+            "age": 20
+        },
+        {
+            "id": 2,
+            "firstname":"Saki",
+            "lastname":"Sakamoto",
+            "age": 30
+        }
+    ]
+}
