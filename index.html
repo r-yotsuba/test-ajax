@@ -3,16 +3,21 @@
     <head>
         <title>Sample of Ajax</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
     </head>
     <body>
         <div class="nameData">
             <p>Test of Ajax</p>
         </div>
+        <div id="test">
+            <p>Test2</p>
+        </div>
     </body>
 
+    <script src="js/insertToTest.js?ver1"></script>
     <script src="js/testAjax.js?ver4"></script>
     <script>
-        for(var i=0; i<250; i++){
+        for(var i=0; i<5; i++){
             $(".nameData").append("<p>test</p>");
         }
     </script>
